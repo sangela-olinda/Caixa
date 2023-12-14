@@ -1,0 +1,52 @@
+print("////// Caixa registradora //////") 
+
+codigo= int(input("Codigo do produto: ")) 
+quant= int(input("Quantidade comprada do produto: ")) 
+
+if codigo == 1: 
+    valor=0.50 
+    preço= valor * quant 
+    print(f"O valor do seu produto é R${valor:.2f}") 
+    print(f"Sua conta deu um valor de R${preço:.2f}") 
+    pagamento=int(input("Valor de pagamento: ")) 
+    troco=pagamento-preço 
+    print(f"Seu troco sera de R${troco:.2f}") 
+
+elif codigo == 2: 
+    valor=1 
+    preço= valor*quant 
+    print(f"O valor do seu produto é R${valor:.2f}") 
+    print(f"Sua conta deu um valor de R${preço:.2f}") 
+    pagamento=int(input("Valor de pagamento: ")) 
+    troco=pagamento-preço 
+    print(f"Seu troco sera de R${troco:.2f}") 
+
+elif codigo == 3: 
+    valor=4 
+    preço=valor *quant 
+    print(f"O valor do seu produto é R${valor:.2f}") 
+    print(f"Sua conta deu um valor de R${preço:.2f}") 
+    pagamento=int(input("Valor de pagamento: ")) 
+    troco=pagamento-preço 
+    print(f"Seu troco sera de R${troco:.2f}") 
+
+elif codigo == 4: 
+    valor=7 
+    preço=valor*quant 
+    print(f"O valor do seu produto é R${valor:.2f}") 
+    print(f"Sua conta deu um valor de R${preço:.2f}") 
+    pagamento=int(input("Valor de pagamento: ")) 
+    troco=pagamento-preço 
+    print(f"Seu troco sera de R${troco:.2f}") 
+
+elif codigo == 5: 
+    valor=8 
+    preço=valor*quant 
+    print(f"O valor do seu produto é R${valor:.2f}") 
+    print(f"Sua conta deu um valor de R${preço:.2f}") 
+    pagamento=int(input("Valor de pagamento: ")) 
+    troco=pagamento-preço 
+    print(f"Seu troco sera de R${troco:.2f}") 
+
+else: 
+    print("Codigo Invalido!") 
